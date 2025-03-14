@@ -3,7 +3,6 @@
 Este repositório contém um desafio de JavaScript para classificar o nível de um jogador com base em seu saldo de vitórias em partidas ranqueadas. O objetivo é praticar lógica de programação e estrutura condicional em JS.
 
 ## 🚀 Desafio
-
 Crie uma função que receba como parâmetro a quantidade de vitórias e derrotas de um jogador. Em seguida, calcule o saldo de partidas ranqueadas usando a fórmula:
 
 ``` Saldo de Rankeadas = Vitórias - Derrotas ```
@@ -21,32 +20,29 @@ Com base no número de vitórias, o jogador será classificado conforme a seguin
 |    101+    | Imortal |
 
 ## 📌 Requisitos
-
-A função deve receber dois parâmetros: número de vitórias e derrotas.<br>
-O saldo de ranqueadas deve ser calculado subtraindo as derrotas das vitórias.<br>
-O código deve determinar o nível do jogador com base na quantidade de vitórias.<br>
-O código deve ser escrito em JavaScript e pode ser executado no navegador ou no Node.js.
+* A função deve receber dois parâmetros: número de vitórias e derrotas.
+* O saldo de ranqueadas deve ser calculado subtraindo as derrotas das vitórias.
+* O código deve determinar o nível do jogador com base na quantidade de vitórias.
 
 ## 💡 Exemplo de Entrada e Saída
+<b>Entrada:</b>
 
-Entrada:
 ``` js
-const vitorias = 75;
-const derrotas = 25;
+    const vitorias = 75;
+    const derrotas = 25;
 ```
-Saída:
+<b>Saída:</b>
 
-``` O Herói tem saldo de 50 está no nível de Prata. ```
+``` js
+    O Herói tem saldo de 50 está no nível de Prata.
+```
 
 ## 🔧 Como executar o desafio
-
 Clone este repositório: ```git clone https://github.com/GeCorreia4/desafio-rankeadas.git```
 
 Acesse o diretório do projeto: ```cd desafio-rankeadas```
 
 Execute o código em um ambiente Node.js: ```node desafio.js```
-
-Ou abra o arquivo desafio.js no navegador e execute-o no console.
 
 ## 📜 Licença
 Este projeto está sob a licença MIT. Sinta-se à vontade para usar e modificar! 🚀

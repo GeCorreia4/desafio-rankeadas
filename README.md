@@ -5,7 +5,9 @@ Este repositório contém um desafio de JavaScript para classificar o nível de 
 ## 🚀 Desafio
 Crie uma função que receba como parâmetro a quantidade de vitórias e derrotas de um jogador. Em seguida, calcule o saldo de partidas ranqueadas usando a fórmula:
 
-``` Saldo de Rankeadas = Vitórias - Derrotas ```
+``` js
+    Saldo_de_Rankeadas = Vitórias - Derrotas
+```
 
 Com base no número de vitórias, o jogador será classificado conforme a seguinte tabela:
 
